@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+# 🎮 GameLib - Biblioteca de Jogos Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<div align="center">
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white" />
+</div>
 
-## Get started
+<div align="center">
+  <strong>Organize e gerencie sua coleção de jogos com facilidade</strong>
+</div>
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📖 Sobre o Projeto
 
-2. Start the app
+O **Game Library** é um aplicativo mobile desenvolvido em React Native que permite aos usuários criar e gerenciar uma biblioteca pessoal de jogos. Com uma interface moderna e intuitiva, é possível catalogar títulos, registrar progresso, avaliar experiências e muito mais.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🎯 Principais Funcionalidades
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- 📚 Biblioteca Pessoal: Organize todos os seus jogos em um local centralizado  
+- 🔍 Busca Inteligente: Encontre jogos por título, plataforma, gênero ou editora  
+- 📊 Sistema de Avaliação: Avalie seus jogos de 1 a 10 estrelas  
+- ⏱️ Controle de Tempo: Registre quantas horas você jogou  
+- 📝 Anotações Pessoais: Adicione suas impressões e comentários  
+- 🎮 Status de Progresso: "Na Fila", "Jogando" ou "Concluído"  
+- 📈 Estatísticas: Acompanhe seus hábitos de jogatina  
+- 🎨 Interface Moderna: Design limpo e responsivo  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🛠️ Tecnologias Utilizadas
 
-When you're ready, run:
+- **React Native** – Framework para desenvolvimento mobile  
+- **TypeScript** – Tipagem estática para JavaScript  
+- **Expo** – Plataforma de desenvolvimento React Native  
+- **In Memory DB** – Banco de dados local em memória  
+- **React Hooks** – Gerenciamento de estado moderno  
+- **Expo Vector Icons** – Biblioteca de ícones  
+
+---
+
+## 🚀 Como Executar
+
+### Pré-requisitos
+
+- Node.js (versão 18 ou superior)  
+- npm ou yarn  
+- Expo CLI  
+- Dispositivo Android/iOS ou emulador  
+
+### Instalação
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/T1T1R3/ProjetoMobile.git
+cd ProjetoMobile
+npm install
+# ou
+yarn install
+npx expo start
